@@ -9,6 +9,6 @@ class Solution:
             return (rev, True)
         else:
             return (rev, False)
-
+# Test
 tmp = Solution()
 print(tmp.palindrome(156751))
