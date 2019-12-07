@@ -6,9 +6,9 @@ class Solution:
             rev = rev*10 + x%10
             x /= 10
         if (rev == x) or (rev/10 == x):
-            return (rev, True)
+            return (x, rev, True)
         else:
-            return (rev, False)
+            return (x, rev, False)
 # Test
 tmp = Solution()
-print(tmp.palindrome(156751))
+print(tmp.palindrome(182181))
