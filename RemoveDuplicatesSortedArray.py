@@ -1,5 +1,5 @@
 class Solution:
-    def removeDumplicates(self, nums):
+    def removeDuplicates(self, nums):
         i = 0
         for j in range(1, len(nums)):
             if nums[j] != nums[i]:
