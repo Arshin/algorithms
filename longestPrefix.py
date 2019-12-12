@@ -19,6 +19,6 @@ class Solution:
             i -= 1
             counter = 0
         return ""
-
-tmp = Solution()
-print(tmp.longestPrefix(["Arshia", "Aria", "Arian"]))
+if __name__ = "__main__":
+    tmp = Solution()
+    print(tmp.longestPrefix(["Arshia", "Aria", "Arian"]))
