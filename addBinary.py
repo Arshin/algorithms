@@ -8,7 +8,7 @@ class Solution:
         carry = 0
         tmp = 0
         for ind in range(max_len-1, -1, -1):
-            tmp+=carry
+            tmp=carry
             tmp+=1 if a[ind] == '1' else 0
             tmp+=1 if b[ind] == '1' else 0
             res = ('1' if tmp%2==1 else '0') + res
