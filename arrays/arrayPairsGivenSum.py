@@ -1,4 +1,4 @@
-# Q: How do you find the largest and smallest number in an unsorted integer array?
+# Q: Pair of numbers adding to a given sum
 class Solution:
     def func(self, nums, target):
         pairs = []
